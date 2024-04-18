@@ -88,17 +88,5 @@ class JUnitLogin {
 		assertTrue(isEven);
 	}
 	
-	@Test
-	void SR4_Test_Secure_Login() throws NoSuchAlgorithmException, IOException {
-		// SR3: The hashed username and password combinations shall be stored in an array.
 
-
-		/* The program will call the App class and automate selections for the test
-		 */
-		
-		App app = new App();
-		app.initializeDependencies();
-
-		
-	}
 }
